@@ -1,0 +1,25 @@
+/* P12 */
+.animation3{
+    background: url(../CSS/image/download.jpg) no-repeat center;
+    background-size: 100%;
+    animation: anii 10s infinite;
+}
+
+@keyframes anii{
+    from{background: url(../CSS/image/download.jpg) no-repeat top;
+    color: red;}
+    to{background: url(../CSS/image/forest.jpg) no-repeat bottom;
+        color: green;}
+}
+.commonAnimation{
+    padding: 150px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 5%;
+}
+.Marathonww{
+    background-color: green;
+}
+.CssClass{
+    background-color: rgb(226, 187, 187);
+}
